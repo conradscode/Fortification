@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="models.PlayerSkills" table="skills">
+	
+		<id name="id" type="int">
+			<column name="id" />
+			<generator class="assigned" />
+		</id>
+		
+		<property name="fishSkill" type="int">
+			<column name="fishSkill" />
+		</property>
+		<property name="fishXp" type="int">
+			<column name="fishXp" />
+		</property>
+		<property name="fishMaxXp" type="int">
+			<column name="fishMaxXp" />
+		</property>
+		
+		<property name="woodSkill" type="int">
+			<column name="woodSkill" />
+		</property>
+		<property name="woodXp" type="int">
+			<column name="woodXp" />
+		</property>
+		<property name="woodMaxXp" type="int">
+			<column name="woodMaxXp" />
+		</property>
+
+		<property name="fightSkill" type="int">
+			<column name="fightSkill" />
+		</property>
+		<property name="fightXp" type="int">
+			<column name="fightXp" />
+		</property>
+		<property name="fightMaxXp" type="int">
+			<column name="fightMaxXp" />
+		</property>
+		
+		<property name="thiefSkill" type="int">
+			<column name="thiefSkill" />
+		</property>
+		<property name="thiefXp" type="int">
+			<column name="thiefXp" />
+		</property>
+		<property name="thiefMaxXp" type="int">
+			<column name="thiefMaxXp" />
+		</property>
+		
+	</class>
+</hibernate-mapping>

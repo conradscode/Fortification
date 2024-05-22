@@ -1,0 +1,7 @@
+/hibernate.cfg.xml
+/Player.hbm.xml
+/PlayerResource.hbm.xml
+/PlayerStats.hbm.xml
+/.settings/
+src/main/java/database/ManagePlayer.java
+/build/

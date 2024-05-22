@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="models.PlayerResource" table="resources">
+	
+		<id name="id" type="int">
+			<column name="id" />
+			<generator class="assigned" />
+		</id>
+		
+		<property name="wood" type="int">
+			<column name="wood" />
+		</property>
+		
+		<property name="copper" type="int">
+			<column name="copper" />
+		</property>
+		
+		<property name="iron" type="int">
+			<column name="iron" />
+		</property>
+		
+		<property name="gold" type="int">
+			<column name="gold" />
+		</property>
+		
+		<property name="titanium" type="int">
+			<column name="titanium" />
+		</property>
+		
+		<property name="fish" type="int">
+			<column name="fish" />
+		</property>
+		
+		<property name="copperForges" type="int">
+			<column name="copperForges" />
+		</property>
+		
+		<property name="ironForges" type="int">
+			<column name="ironForges" />
+		</property>
+		
+		<property name="goldForges" type="int">
+			<column name="goldForges" />
+		</property>
+		
+		<property name="titaniumForges" type="int">
+			<column name="titaniumForges" />
+		</property>
+		
+	</class>
+</hibernate-mapping>
